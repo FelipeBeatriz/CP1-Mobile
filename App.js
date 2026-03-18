@@ -40,7 +40,7 @@ export default function App() {
       <TextInput
         placeholder='Digite seu nome...'
         style={styles.input}
-        maxLength={20}
+        maxLength={50}
         autoCapitalize='words'
         onChangeText={setNomeAluno}
       />
